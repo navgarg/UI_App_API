@@ -6,6 +6,8 @@ Link to API: https://thzpf4wmki.execute-api.us-west-2.amazonaws.com/Dev/trip-ear
 
 To use this API, the client (like Android Studio) will pass a query with the URL. The API will pass in the query as a JSON object to the Lambda function. The Lambda function will then extract the information provided, and either get an item from the DynamoDB, using the get_item() method, or will add an item to the DynamoDB, using put_item().
 
+I have added the code of the Lambda function in the repository. I have two lambda functions: AddTripEarning (for adding a new item to the DynamoDB) and GetTripByID(for getting the item from the DynamoDB)
+
 
 ### The get_item() test response from API:
 
