@@ -3,6 +3,7 @@
 I have used Amazon AWS to create the RESTful API for this task.
 
 Link to API: https://thzpf4wmki.execute-api.us-west-2.amazonaws.com/Dev/trip-earning
+(The above link throws an error as no query parameter is passed)
 
 To use this API, the client (like Android app) will hit the API with a query. The API will pass the query as a JSON object to the AWS Lambda function, created specifically for accessing the DynamoDB database. Since this Lambda function has been assigned the rights to access and modify the DynamoDB, it will extract the information provided, and either get an item from the DynamoDB, using the get_item() method, or will add an item to the DynamoDB, using put_item().
 
