@@ -9,16 +9,16 @@ To use this API, the client (like Android Studio) will pass a query with the URL
 I have added the code of the Lambda function in the repository. I have two lambda functions: AddTripEarning (for adding a new item to the DynamoDB) and GetTripByID(for getting the item from the DynamoDB)
 
 
-### The get_item() test response from API:
+#### The get_item() test response from API:
 
 ![](https://github.com/navgarg/UI_App_API/blob/master/Images/Screenshot%202020-07-28%20at%2010.44.19%20AM.png)
 
 
-### The put_item() test response from API:
+#### The put_item() test response from API:
 
 ![](https://github.com/navgarg/UI_App_API/blob/master/Images/Screenshot%202020-07-28%20at%2010.48.50%20AM.png)
 
-### DynamoDB screenshot:
+#### DynamoDB screenshot:
 
 ![](https://github.com/navgarg/UI_App_API/blob/master/Images/Screenshot%202020-07-28%20at%2010.51.11%20AM.png)
 
